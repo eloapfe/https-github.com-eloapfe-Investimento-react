@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# https-github.com-eloapfe-Investimento-react
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![alt text](image.png)
 
-## Get started
+# 💰 Simulador de Investimento
 
-1. Install dependencies
+Este aplicativo calcula o montante acumulado ao investir mensalmente um valor durante um período de tempo, com ou sem a aplicação de juros compostos. É uma alternativa ao financiamento, ajudando o usuário a entender o poder dos investimentos com paciência e planejamento.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📱 Funcionalidades
 
-   ```bash
-   npx expo start
-   ```
+- Entrada do valor mensal a ser investido
+- Definição do número de meses
+- Inserção da taxa de juros mensal
+- Cálculo do montante acumulado:
+  - 💸 **Sem juros**
+  - 📈 **Com juros compostos**
+- Interface simples e intuitiva
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📸 Exemplo de uso
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> Simulando um investimento mensal de **R$ 500** durante **12 meses** com **1% de juros ao mês**:
 
-## Get a fresh project
+- **Montante sem juros:** R$ 6.000,00  
+- **Montante com juros compostos:** R$ 6.802,38
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🚀 Tecnologias utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- TypeScript
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📦 Como executar o projeto
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Pré-requisitos
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Node.js e npm instalados
+- Expo CLI instalado:
+  ```bash
+  npm install -g expo-cli
